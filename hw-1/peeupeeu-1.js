@@ -60,11 +60,11 @@ const colors = {
   },
 };
 
-function logPink(str, fgColor, bgColor) {
+function coloredLogger(str, fgColor, bgColor) {
   const fg = colors.fg[fgColor] || colors.fg.default;
   const bg = colors.bg[bgColor] || colors.bg.default;
   console.log(console.log(bg, fg, str, colors.reset));
 }
 
-//logPink(cat, 'greennn');
-logPink(cat, 'magenta', 'white');
+//coloredLogger(cat, 'greennn');
+coloredLogger(cat, 'magenta', 'white');
