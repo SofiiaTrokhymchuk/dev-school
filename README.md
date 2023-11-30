@@ -1,4 +1,4 @@
-# dev-school-hw-5
+# dev-school
 
 ## Description
 
